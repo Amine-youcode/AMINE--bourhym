@@ -1,5 +1,5 @@
-#include <stdio.h>
-int somme(int a,int b){
+   #include <stdio.h>
+int multuplucation(int a,int b){
     
      
     return a*b;
@@ -11,8 +11,8 @@ printf("entrer une number: ");
 scanf("%d",&a);
 printf("entrer une number: ");
 scanf("%d",&b);
- result=somme(a,b);
-printf("la somme est %d",result);
+ result=multuplucation(a,b);
+printf("la multuplucation est %d",result);
 
     return 0;
 }
