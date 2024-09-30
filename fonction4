@@ -1,17 +1,18 @@
- #include <stdio.h>
-int minimant(int a, int b){
+    #include <stdio.h>
+int minimal(int a, int b){
     int min;
      min=0; 
-    for (int b=0;b<a;b++){
+    
         
         
-        if (min<a){
+        if (a<b)
             min=a;
-        }
+        else
+           min=b;
      
    return min;
 }
-}
+
 
 int main() {
  int a,b;
@@ -20,7 +21,7 @@ printf("entrer une number: ");
 scanf("%d",&a);
 printf("entrer une number: ");
 scanf("%d",&b);
- result=minimant(a,b);
+ result=minimal(a,b);
 printf("la minimal est %d \n",result);
 
 

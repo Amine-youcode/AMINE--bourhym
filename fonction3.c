@@ -1,4 +1,4 @@
-   #include <stdio.h>
+ #include <stdio.h>
 int maximal(int a, int b){
     int max;
      max=0; 
