@@ -1,0 +1,33 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+ int a;
+ int b;
+ int c;
+ 
+ printf("Revenu annuel: ");
+ scanf("%d",&a);
+ 
+ printf("Score de crédit: ");
+ scanf("%d",&a);
+ 
+ printf("Durée du prêt: ");
+ scanf("%d",&a);
+ 
+ if ((a>=30000 && a>=700)|| (a<=10)){
+ printf("Éligible");
+ }
+ else if ((a>= 30000 && a>= 650) ||  (a<= 15)){
+ printf("Éligible avec conditions");
+ }
+ else if ((a< 30000 && a< 650) || (a> 15)){
+ printf("Non éligible");
+ }
+ else
+ printf("error de system");
+ 
+    
+  
+    return 0;
+}
